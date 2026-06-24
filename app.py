@@ -13,8 +13,7 @@ buttons = [
     ["C", "+/-", "%", "÷"],
     ["7", "8", "9", "×"],
     ["4", "5", "6", "−"],
-    ["1", "2", "3", "+"],
-    ["0", ".", "⌫", "="],
+    ["1", "2", "3', "],
 ]
 
 for row in buttons:
@@ -51,7 +50,7 @@ for row in buttons:
 
 st.markdown("""
 <style>
-div.stButton > button {
+div.stButton > button 
     height: 60px;
     font-size: 20px;
     border-radius: 10px;
